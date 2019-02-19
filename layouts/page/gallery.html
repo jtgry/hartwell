@@ -1,0 +1,41 @@
+{{ define "main" }}
+{{ block "header" . }}{{ partial "site/page-header.html" . }}{{ end }}
+<section class="block-container">
+<div class="gallery fade-in-slow">
+    {{- if .Params.gallery -}}
+      {{ range .Params.gallery }}
+      {{ $imageSmall := (resources.Get .).Resize "1000x"  }}
+      {{ $imageLarge := (resources.Get .).Resize "2000x" }}
+      {{ $imageThumbnail := $imageSmall.Resize "100x q25" }}
+      <div class="block-gallery-item">
+        <a class="block-gallery-item-image" href="{{ $imageLarge.RelPermalink }}">
+          <img class="lazyload" src="{{ $imageThumbnail.RelPermalink }}" data-src="{{ $imageSmall.RelPermalink }}" alt="">
+        </a>
+      </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+<section>
+  <div class="block-container">
+  {{ with .NextInSection }}
+    {{ $nextimage := (resources.Get .Params.image).Fill "1000x600 smart"  }}
+    <a class="read-next" href="{{ .Permalink }}">
+      <img src="{{ $nextimage.RelPermalink }}" alt="">
+      <div class="read-next-content">
+        <h3>{{ .Title }}</h3>
+      </div>
+    </a>
+  {{ end }}
+  {{ with .PrevInSection }}
+  {{ $previmage := (resources.Get .Params.image).Fill "1000x600 smart" }}
+    <a class="read-next" href="{{ .Permalink }}">
+      <img src="{{ $previmage.RelPermalink }}" alt="">
+      <div class="read-next-content">
+        <h3>{{ .Title }}</h3>
+      </div>
+    </a>
+  {{ end }}
+  </div>
+</section>
+{{ end }}

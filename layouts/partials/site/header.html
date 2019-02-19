@@ -1,0 +1,18 @@
+{{ if .Params.image }}
+{{ $image := (resources.Get .Params.image).Fill "2000x1168 smart" }}
+<header class="site-header" style="background-image:url({{ $image.RelPermalink }});">
+{{ else }}
+<header class="site-header">
+{{ end }}
+ <div class="site-header-overlay"></div>
+  <div class="vertical">
+    <div class="site-header-content">
+      <div class="site-header-cta">
+        <img src="{{ .Params.cta_image }}">
+        <p>{{ .Params.intro }}</p>
+        <a href="{{ .Params.button_url }}" class="button"><span>{{ .Params.button_text }}</span></a>
+      </div>
+    </div>
+  </div>
+  <div id="scrollDown" class="scroll-down"></div>
+</header>

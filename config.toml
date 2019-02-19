@@ -1,0 +1,79 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Hartwell Records"
+
+enableRobotsTXT = true
+disableAliases = true
+
+assetDir= "static"
+
+[params]
+disallow_search_engines = false # set robots.txt to disallow everything
+
+# add redirects/headers
+[outputs]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+
+# remove .{ext} from text/netlify
+[mediaTypes."text/netlify"]
+suffixes = [""]
+delimiter = ""
+
+# add output format for netlify _redirects
+[outputFormats.REDIRECTS]
+mediatype = "text/netlify"
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
+
+# add output format for netlify _headers
+[outputFormats.HEADERS]
+mediatype = "text/netlify"
+baseName = "_headers"
+isPlainText = true
+notAlternative = true
+
+[[menu.main]]
+  name = "Jamie Sharpe"
+  weight = 3
+  url = "/jamie-sharpe/"
+
+[[menu.main]]
+  name = "Studio"
+  weight = 1
+  url = "/studio/"
+
+[[menu.main]]
+  name = "Inquiries"
+  weight = 2
+  url = "/inquiries/"
+
+[[menu.main]]
+  name = "Lessons"
+  weight = 4
+  url = "/Lessons/"
+
+[[menu.main]]
+  name = "Music"
+  weight = 5
+  url = "/#music"
+
+[[menu.footer]]
+  name = "Home"
+  weight = 1
+  url = "/"
+
+[[menu.footer]]
+  name = "Message"
+  weight = 2
+  url = "/"
+
+[[menu.footer]]
+  name = "Facebook"
+  weight = 3
+  url = "/"
+
+[[menu.footer]]
+  name = "Instagram"
+  weight = 4
+  url = "/"

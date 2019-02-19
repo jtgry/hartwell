@@ -1,0 +1,38 @@
+.block-feature{
+  height: 70vh;
+  width: 100%;
+  display: table;
+  .block-feature-content{
+    max-width: $content-width;
+    margin: 0 auto;
+    p{
+      font-family: $header-font-family;
+      font-size: 3rem;
+      text-align: center;
+    }
+    hr{
+      max-width: 4em;
+      height: 1em;
+      margin-bottom: $spacing-unit;
+      background-color: $color-grey-dark;
+    }
+    @media (max-width: $tablet) {
+      height: 30vh;
+      padding: $spacing-unit 0;
+      p{
+        font-size: 2rem;
+      }
+    }
+
+    h2.block-feature-heading{
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: .3em;
+      font-size: 1rem;
+      font-family: $alt-font-family;
+      color: $color-grey;
+      margin-bottom: $spacing-unit / 2;
+    }
+
+  }
+}

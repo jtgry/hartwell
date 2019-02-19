@@ -1,0 +1,38 @@
+---
+label: Home
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- type: textarea
+  default: ''
+  label: Intro
+  name: intro
+- name: image
+  label: Image
+  type: file
+  hidden: false
+  default: ''
+- name: button_url
+  label: Button url
+  type: text
+  hidden: false
+  default: ''
+- name: button_text
+  label: Button text
+  type: text
+  hidden: false
+  default: ''
+- type: blocks
+  name: blocks
+  label: Blocks
+  template_types:
+  - block-cta
+  - block-feature
+  - block-image
+pages:
+- content/_index.md
