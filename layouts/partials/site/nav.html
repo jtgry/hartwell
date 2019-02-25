@@ -31,4 +31,13 @@
         {{ end }}
       </ul>
     </div>
+      <div class="mobile-nav-social">
+        <div class="vertical">
+          <ul>
+            {{ range .Site.Menus.footer.ByWeight }}
+              <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
   </nav>
