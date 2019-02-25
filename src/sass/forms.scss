@@ -64,33 +64,33 @@ input[type="email"]:focus,input[type="number"]:focus,input[type="search"]:focus,
     outline:0px !important;
     -webkit-appearance:none;
     border: none;
-    border-bottom: 2px solid $color-grey-light;
+    border-bottom: 2px solid $color-white;
 }
 input.form-control:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
     border: none;
-    border-bottom: 2px solid $color-grey;
+    border-bottom: 2px solid $color-white;
 }
 input.form-control:active {
     -webkit-box-shadow: none;
     box-shadow: none;
     border: none;
-    border-bottom: 2px solid $color-grey;
+    border-bottom: 2px solid $color-white;
 }
 textarea.form-control:focus {
   height: 5em;
   -webkit-box-shadow: none;
   box-shadow: none;
   border: none;
-  border-bottom: 2px solid $color-grey;
+  border-bottom: 2px solid $color-white;
 }
 textarea.form-control:active {
   height: 5em;
   -webkit-box-shadow: none;
   box-shadow: none;
   border: none;
-  border-bottom: 2px solid $color-grey;
+  border-bottom: 2px solid $color-white;
 }
 
 input[type=checkbox],input[type=radio] {

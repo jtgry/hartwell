@@ -41,7 +41,7 @@ notAlternative = true
 [[menu.main]]
   name = "Studio"
   weight = 1
-  url = "/studio/"
+  url = "/#intro"
 
 [[menu.main]]
   name = "Inquiries"

@@ -46,8 +46,27 @@ nav{
         margin: 0;
         a{
           display: block;
+          position: relative;
           padding: 1em 1em;
           color: $color-white;
+          transition: all .3s;
+
+          &:after {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+          width: 0%;
+          content: '.';
+          color: transparent;
+          background: $color-white;
+          height: 2px;
+          transition: all .3s;
+          }
+          &:hover:after {
+          width: 100%;
+          }
         }
       }
     }
@@ -134,16 +153,15 @@ nav{
   font-size: 1.4rem;
   letter-spacing: .1em;
   display: block;
-  padding: 2em 0;
-  width: 100%;
+  padding: 2em;
   margin: 0 auto;
   @media (max-width: $tablet) {
-    padding: 1em 0;
+    padding: 1em 2em;
   }
 }
 .mobile-nav-items a:hover{
   text-decoration: none;
-  color: $color-brand;
+  color: $color-grey;
   -webkit-transition: color .3s linear; /* Saf3.2+, Chrome */
   -moz-transition: color .3s linear; /* FF3.7+ */
   -o-transition: color .3s linear; /* Opera 10.5 */

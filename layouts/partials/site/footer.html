@@ -1,7 +1,6 @@
 <footer class="site-footer" role="contentinfo">
 	<div class="container">
-		<h3>{{ .Site.Title }}</h3>
-		<hr />
+		<img src="/images/footer-logo.svg" alt="{{ .Site.Title }}">
 		<ul>
 			{{ range .Site.Menus.footer.ByWeight }}
 				<li><a href="{{ .URL }}">{{ .Name }}</a></li>

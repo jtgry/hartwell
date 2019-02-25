@@ -5,6 +5,10 @@
   color: $color-white;
   text-align: center;
   padding: $spacing-unit * 2 0;
+  img{
+    max-width: 20em;
+    margin-bottom: $spacing-unit;
+  }
   h3{
     font-size: 1.2rem;
     color: $color-white;
