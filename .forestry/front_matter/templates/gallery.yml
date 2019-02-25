@@ -28,8 +28,3 @@ fields:
   type: image_gallery
   hidden: false
   default: ''
-pages:
-- content/portfolio/business.md
-- content/portfolio/lifestyle.md
-- content/portfolio/maternity-birth.md
-- content/portfolio/kids-and-families.md
