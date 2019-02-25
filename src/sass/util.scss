@@ -24,6 +24,9 @@
   );
   display: block;
 }
+.invisible{
+  display: none;
+}
 .hidden{
     opacity: 1;
     z-index: $height-high;

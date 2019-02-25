@@ -9,4 +9,6 @@
 {{- if eq .template "block-audio" -}}{{ partial "blocks/block-audio" (dict "Params" .) }}{{- end -}}
 {{- end -}}
 
+{{ block "contact" . }}{{ partial "site/contact.html" . }}{{ end }}
+
 {{ end }}

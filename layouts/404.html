@@ -1,8 +1,11 @@
 {{ define "main" }}
-
-    <article>
-        <h1>Page Not Found!</h1>
-        <p>The page you requested could not be found.</p>
-    </article>
-
+{{ block "header" . }}{{ partial "site/page-header.html" . }}{{ end }}
+  <article class="container">
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+    <div class="post-content">
+      {{ block "related" . }}{{ partial "site/related.html" . }}{{ end }}
+    </div>
+  </article>
 {{ end }}
