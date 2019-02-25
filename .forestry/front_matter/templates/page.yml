@@ -13,5 +13,4 @@ fields:
   name: image
   label: Image
 pages:
-- content/about.md
 - content/inquiries.md
