@@ -1,7 +1,8 @@
 ---
 title: About
-image: "/images/jamie-sharpe-2.jpg"
+image: "/uploads/DSC_3319.jpg"
 date: ''
+
 ---
 ### First Steps
 At a very ealy age Jamie developed a passion for music that started with his parents giving him his first drum set at the age of eight. This passion grew as he joined Marching Band at his local highschool. 
