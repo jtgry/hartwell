@@ -12,7 +12,7 @@
     <div class="block-showcase-items">
       {{- if .Params.items -}}
         {{ range .Params.items }}
-        {{ $imageSmall := (resources.Get .image).Fill "600x500"  }}
+        {{ $imageSmall := (resources.Get .image).Fill "900x800"  }}
         {{ $imageThumbnail := $imageSmall.Resize "100x q25" }}
         <div class="block-showcase-item">
           {{ if .image }}
