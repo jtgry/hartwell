@@ -66,14 +66,14 @@ notAlternative = true
 [[menu.footer]]
   name = "Message"
   weight = 2
-  url = "/"
+  url = "/inquiries"
 
 [[menu.footer]]
   name = "Facebook"
   weight = 3
-  url = "/"
+  url = "https://www.facebook.com/Hartwell-Records-2189907247937009"
 
 [[menu.footer]]
   name = "Instagram"
   weight = 4
-  url = "/"
+  url = "https://www.instagram.com/hartwellrecords"

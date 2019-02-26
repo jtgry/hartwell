@@ -75,13 +75,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
   imagesLoaded( document.querySelector('#page'), function( instance ) {
     console.log('all images are loaded');
-      // Masonry
-    var elem = document.querySelector('.gallery');
-    var msnry = new Masonry( elem, {
-      // options
-      itemSelector: '.block-gallery-item',
-    });
-    baguetteBox.run('.gallery');
+
 
     var myLazyLoad = new LazyLoad({
       elements_selector: ".lazyload",

@@ -40,11 +40,11 @@
     text-align: center;
       img{
         width: 100%;
-        max-width: 60vw;
+        max-width: 60%;
         height: auto;
         margin-bottom: $spacing-unit;
         @media (max-width: $tablet) {
-          max-width: 90vw;
+          max-width: 90%;
         }
         @include fadeIn(
           $delay: 1.2s,

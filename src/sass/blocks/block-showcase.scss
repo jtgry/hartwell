@@ -6,17 +6,10 @@
     margin: 0 auto;
     margin-bottom: $spacing-unit * 2;
     h2{
+      font-size: 3rem;
+      color: $color-white;
+      margin-bottom: $spacing-unit / 2;
       text-align: center;
-      letter-spacing: .1em;
-      font-size: .9rem;
-      font-family: $alt-font-family;
-      color: $color-grey;
-      margin-bottom: $spacing-unit * 1;
-    }
-    hr{
-      max-width: 3em;
-      height: .2em;
-      background: $color-brand-alt;
     }
     p{
       font-family: $header-font-family;
@@ -27,10 +20,10 @@
   .block-showcase-item{
     box-shadow: $box-shadow;
     border-radius: .3em;
-    @include column(1/3);
+    @include column(1/3, $cycle: 3);
+    margin-bottom: $spacing-unit;
     @media (max-width: $tablet) {
       @include stack();
-      margin-bottom: $spacing-unit / 2;
     }
     img{
       min-width: 100%;
