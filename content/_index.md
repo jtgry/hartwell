@@ -31,7 +31,7 @@ blocks:
   - template: block-item
     image: "/uploads/DSC_3517-2.jpg"
   - template: block-item
-    image: "/images/jamie-sharpe-1.jpg"
+    image: "/uploads/DSC_3636.jpg"
   - template: block-item
     image: "/images/jamie-sharpe-1.jpg"
   - template: block-item
