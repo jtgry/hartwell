@@ -1,7 +1,8 @@
 ---
 title: Lessons
-image: "/images/jamie-sharpe-2.jpg"
+image: "/uploads/DSC_3593.jpg"
 date: ''
 type: page
 layout: lessons
+
 ---
