@@ -1,7 +1,8 @@
 ---
 title: Inquiries
-image: "/images/jamie-sharpe-2.jpg"
+image: "/uploads/DSC_3581-2.jpg"
 type: page
 layout: contact
 date: ''
+
 ---
