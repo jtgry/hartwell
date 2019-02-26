@@ -18,7 +18,7 @@ blocks:
   button_text: ''
 - template: block-image
   heading: Southern Vibes
-  image: "/images/jamie-sharpe-1.jpg"
+  image: "/uploads/DSC_3581.jpg"
   content: Creative Sounds, and Southern Vibes. At **Hartwell** your creativity and
     uniqueness are focused and refined to produce a sound that is unforgettable.
   button_url: ''
