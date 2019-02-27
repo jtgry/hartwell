@@ -1,6 +1,6 @@
 ---
 title: Jamie Sharpe
-image: "/uploads/DSC_3319.jpg"
+image: "/uploads/DSC_3346.jpg"
 date: ''
 
 ---
