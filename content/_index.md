@@ -11,7 +11,7 @@ blocks:
   content: Hi, my name is **Jamie Sharpe**, I've been creating music since I can remember.
 - template: block-image
   heading: Creative Sounds
-  image: "/images/jamie-sharpe-1.jpg"
+  image: "/uploads/DSC_3516-1.jpg"
   content: Creative Sounds, and Southern Vibes. At **Hartwell** your creativity and
     uniqueness are focused and refined to produce a sound that is unforgettable.
   button_url: ''
