@@ -29,7 +29,7 @@ blocks:
     uniqueness are focused and refined to produce a sound that is unforgettable.
   items:
   - template: block-item
-    image: "/uploads/DSC_3516-1.jpg"
+    image: "/uploads/DSC_3458-2.jpg"
   - template: block-item
     image: "/uploads/DSC_3637-2-1.jpg"
   - template: block-item
