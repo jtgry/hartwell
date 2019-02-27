@@ -1,5 +1,5 @@
 ---
-title: About
+title: Jamie Sharpe
 image: "/uploads/DSC_3319.jpg"
 date: ''
 
