@@ -42,7 +42,7 @@ blocks:
     image: "/uploads/DSC_3501-1.jpg"
 - template: block-cta
   heading: Hartwell Records
-  image: "/images/jamie-sharpe-1.jpg"
+  image: "/uploads/DSC_3551-1.jpg"
   content: Creative Sounds, and Southern Vibes. At **Hartwell** your creativity and
     uniqueness are focused and refined to produce a sound that is unforgettable.
   button_url: ''
