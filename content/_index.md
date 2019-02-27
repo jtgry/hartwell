@@ -31,7 +31,7 @@ blocks:
   - template: block-item
     image: "/uploads/DSC_3517-2.jpg"
   - template: block-item
-    image: "/uploads/DSC_3636.jpg"
+    image: "/uploads/DSC_3637-2-1.jpg"
   - template: block-item
     image: "/uploads/DSC_3533-2.jpg"
   - template: block-item
