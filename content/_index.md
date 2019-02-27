@@ -39,7 +39,7 @@ blocks:
   - template: block-item
     image: "/uploads/DSC_3426-1.jpg"
   - template: block-item
-    image: "/uploads/DSC_3619-2.jpg"
+    image: "/uploads/DSC_3501-1.jpg"
 - template: block-cta
   heading: Hartwell Records
   image: "/images/jamie-sharpe-1.jpg"
