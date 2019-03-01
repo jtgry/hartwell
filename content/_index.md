@@ -8,7 +8,8 @@ cta_image: "/images/logo-banner.svg"
 blocks:
 - template: block-feature
   heading: Welcome to Heartwell
-  content: Hi, my name is **Jamie Sharpe**, I've been creating music since I can remember.
+  content: 'Hi, my name is **Jamie sharpe**, and I’m excited to share my love of music
+    with you. '
 - template: block-image
   heading: Creative Sounds
   image: "/uploads/DSC_3516-1.jpg"
