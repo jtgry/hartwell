@@ -30,6 +30,18 @@ After coming off the road Jamie began planning his next chapter, building his ow
 * Frazer Worship
 * The Sweet Young Uns
 
+#### Artist toured with:
+
+* Newsboys
+* Casting crowns
+* Mathew West
+* Todd Agnew tour
+* Newsong
+* Mark Schultz
+* Downhere
+* Kutless
+* Rhett walker
+
 #### Producers/Engineers worked with:
 
 * Jason Ingram
