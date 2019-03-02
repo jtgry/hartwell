@@ -45,13 +45,13 @@ After coming off the road Jamie began planning his next chapter, building his ow
 #### Producers/Engineers worked with:
 
 * Jason Ingram
-* Dennis herring
+* Dennis Herring
 * Rusty Varencamp
 * Rusty Cobb
-* Dave hogan
+* Dave Hagen
 
 #### Sponsored by:
 
 * ProMark
-* Evans drumheads
-* DAddario strings
+* Evans Drumheads
+* DAddario Strings
