@@ -6,13 +6,13 @@ date: ''
 ---
 ### First Steps
 
-At a very ealy age Jamie developed a passion for music that started with his parents giving him his first drum set at the age of eight. This passion grew as he joined Marching Band at his local highschool.
+At a very ealy age Jamie developed a passion for music that started with his parents giving him his first drum set at the age of eight. This passion grew as he joined the Marching Band at his local high school.
 
 ***
 
 ### Hitting The Road
 
-Fueled by his heart for music Jamie joined a band called **Rush Of Fools** and hit the road touring and playing for festivals, churches, and camps. Their first single released went straight to the top of the Christian Music charts and Radio Channels. Jamie spent the next ten years playing for thousands of people all over the United States and even toured in Europe. In 2016 after honing his craft and musical talents Jamie felt that it was time to for a new chapter in his life.
+Fueled by his heart for music Jamie joined a band called **Rush Of Fools** and hit the road touring and playing for festivals, churches, and camps. Their first single released went straight to the top of the Christian Music charts. Jamie spent the next ten years playing for thousands of people all over the United States and even toured in Europe. In 2016 after honing his craft and musical talents Jamie felt that it was time to for a new chapter in his life.
 
 ***
 
@@ -33,14 +33,14 @@ After coming off the road Jamie began planning his next chapter, building his ow
 #### Artist toured with:
 
 * Newsboys
-* Casting crowns
+* Casting Crowns
 * Mathew West
-* Todd Agnew tour
+* Todd Agnew
 * Newsong
 * Mark Schultz
 * Downhere
 * Kutless
-* Rhett walker
+* Rhett Walker
 
 #### Producers/Engineers worked with:
 
