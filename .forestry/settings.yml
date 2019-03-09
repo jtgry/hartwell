@@ -10,13 +10,6 @@ sections:
   create: all
   match: "*"
 - type: directory
-  path: content/portfolio
-  label: Portfolio
-  create: documents
-  match: "**/*"
-  templates:
-  - gallery
-- type: directory
   path: content/journal
   label: Journal
   create: all
