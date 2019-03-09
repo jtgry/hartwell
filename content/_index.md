@@ -13,8 +13,9 @@ blocks:
 - template: block-image
   heading: Creative Sounds
   image: "/uploads/DSC_3516-1.jpg"
-  content: Creative Sounds, and Southern Vibes. At **Hartwell** your creativity and
-    uniqueness are focused and refined to produce a sound that is unforgettable.
+  content: 'Immerse yourself in the recording experience as your creativity shines
+    through. Here at Hartwell, we love being able to help develop your own unique
+    sound. '
   button_url: ''
   button_text: ''
 - template: block-image
