@@ -44,7 +44,7 @@ blocks:
   - template: block-item
     image: "/uploads/DSC_3501-1.jpg"
 - template: block-feature
-  heading: Creative Sounds & Southern Vibes
+  heading: Please Stand By
   content: Music Coming Soon
 - template: block-cta
   heading: Hartwell Records
