@@ -46,8 +46,9 @@ blocks:
 - template: block-cta
   heading: Hartwell Records
   image: "/uploads/DSC_3551-1.jpg"
-  content: Creative Sounds, and Southern Vibes. At **Hartwell** your creativity and
-    uniqueness are focused and refined to produce a sound that is unforgettable.
+  content: Whether your interests lean more towards a personalized recording session,
+    drum tracking or individualized lessons, **Hartwell Records** is here to meet
+    your needs.
   button_url: ''
   button_text: ''
 
