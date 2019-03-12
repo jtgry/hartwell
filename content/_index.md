@@ -43,6 +43,9 @@ blocks:
     image: "/uploads/DSC_3430.jpg"
   - template: block-item
     image: "/uploads/DSC_3501-1.jpg"
+- template: block-feature
+  heading: Creative Sounds & Southern Vibes
+  content: Music Coming Soon
 - template: block-cta
   heading: Hartwell Records
   image: "/uploads/DSC_3551-1.jpg"
