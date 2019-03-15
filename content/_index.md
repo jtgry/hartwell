@@ -8,8 +8,8 @@ cta_image: "/images/logo-banner.svg"
 blocks:
 - template: block-feature
   heading: Welcome to Hartwell
-  content: 'Hi, my name is **Jamie Sharpe**, and I’m excited to share my love of music
-    with you.'
+  content: Hi, my name is **Jamie Sharpe**, and I’m excited to share my love of music
+    with you.
 - template: block-image
   heading: Creative Sounds
   image: "/uploads/DSC_3516-1.jpg"
@@ -28,7 +28,7 @@ blocks:
   button_text: ''
 - template: block-showcase
   heading: The Studio
-  content: Creative Sounds, and Southern Vibes. At **Hartwell** your creativity and
+  content: Creative Sounds and Southern Vibes. At **Hartwell** your creativity and
     uniqueness are focused and refined to produce a sound that is unforgettable.
   items:
   - template: block-item
@@ -49,8 +49,10 @@ blocks:
 - template: block-cta
   heading: Drum Lessons
   image: "/uploads/DSC_3551-1.jpg"
-  content: As a professional musician, touring artist and having a love of creating music for over 20 years, I have always felt there was a need for guiding other drummers to help cultivate their musicianship and shape their abilities.
-  button_url: '/lessons'
-  button_text: 'Learn More'
+  content: As a professional musician, touring artist and having a love of creating
+    music for over 20 years, I have always felt there was a need for guiding other
+    drummers to help cultivate their musicianship and shape their abilities.
+  button_url: "/lessons"
+  button_text: Learn More
 
 ---
