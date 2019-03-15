@@ -9,7 +9,7 @@ blocks:
 - template: block-feature
   heading: Welcome to Hartwell
   content: 'Hi, my name is **Jamie Sharpe**, and I’m excited to share my love of music
-    with you. '
+    with you.'
 - template: block-image
   heading: Creative Sounds
   image: "/uploads/DSC_3516-1.jpg"
