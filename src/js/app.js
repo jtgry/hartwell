@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var mobileNav = document.getElementById('mobile-nav');
     var navItems = document.getElementById('navItems');
     var scrollDown = document.getElementById('scrollDown');
+
     menuButton.addEventListener('click', function (e) {
       menuButton.classList.toggle('is-active');
       e.preventDefault();
@@ -60,9 +61,14 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
     
+    //If users clicks a mobile nav link close the nav menu
+    document.addEventListener('click', function (event) {
+      if (!event.target.matches('.mobile-nav-item')) return;
+      removeClass(mobileNav, 'visible');
+      addClass(mobileNav, 'hidden');
+      menuButton.classList.toggle('is-active');
 
-
-
+    }, false);
 
   // Image Process
   var imgHires = document.getElementsByClassName('image-hires');

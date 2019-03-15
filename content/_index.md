@@ -47,12 +47,10 @@ blocks:
   heading: Please Stand By
   content: Music Coming Soon
 - template: block-cta
-  heading: Hartwell Records
+  heading: Drum Lessons
   image: "/uploads/DSC_3551-1.jpg"
-  content: Whether your interests lean more towards a personalized recording session,
-    drum tracking or individualized lessons, **Hartwell Records** is here to meet
-    your needs.
-  button_url: ''
-  button_text: ''
+  content: As a professional musician, touring artist and having a love of creating music for over 20 years, I have always felt there was a need for guiding other drummers to help cultivate their musicianship and shape their abilities.
+  button_url: '/lessons'
+  button_text: 'Learn More'
 
 ---

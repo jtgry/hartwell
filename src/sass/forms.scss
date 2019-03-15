@@ -6,23 +6,29 @@ form{
     margin-right: 0;
   }
 }
+
 input, select, textarea{
   color: $color-white;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-tap-highlight-color: transparent; /* For some Androids */
   outline: none;
 }
+.form-group{
+  margin-bottom: $spacing-unit / 2;
+}
+
 label.form-label {
   font-family: $alt-font-family;
   color: $color-grey-light;
   font-weight: 700;
   font-size: 1rem;
   float: left;
+  width: 100%;
+  display: inline-block;
 }
 input.form-control {
   font-family: $base-font-family;
   text-align: left;
-  margin-bottom: $spacing-unit / 2;
   height: 1.6em;
   font-size: 1.2rem;
   width:100%;
@@ -95,45 +101,45 @@ textarea.form-control:active {
 }
 
 input[type=checkbox],input[type=radio] {
-  -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
   -o-appearance: none;
   appearance: none;
   position: relative;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   margin: 0;
   padding: 0;
-  -webkit-transition: all 0.15s ease-out 0;
-  -moz-transition: all 0.15s ease-out 0;
-  transition: all 0.15s ease-out 0;
-  background: #fafafa;
-  border: 2px solid rgba(0,0,0,0.1);
-  color: #fff;
+  transition: all .3s ease-out 0;
+  border: 2px solid $color-grey-light;
+  color: $color-grey-light;
   cursor: pointer;
   display: block;
   outline: none;
-  position: relative;
-  margin-right: 0.5rem;
+  margin-right: .5rem;
+  margin-bottom: -.5em;
+  margin-top: .5em;
   z-index: 1000;
-  -webkit-box-shadow: none;
   box-shadow: none;
+  display: inline-block;
 }
-input[type=checkbox]:hover,input[type=radio]:hover { background: #fafafa; }
 
-input[type=checkbox]:checked,input[type=radio]:checked { background: #fafafa; }
+
+input[type=checkbox]:checked,input[type=radio]:checked{ 
+  border-color: $color-white;
+  background: #fafafa; 
+}
 
 input[type=checkbox]:checked::before,input[type=radio]:checked::before {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   position: absolute;
   content: '✔';
-  color: #888;
+  color: #333;
   display: inline-block;
-  font-size: 26.66667px;
+  font-size: 16.66667px;
   text-align: center;
-  line-height: 35px;
+  line-height: 25px;
   border: 0;
   -webkit-box-shadow: none;
   box-shadow: none;

@@ -26,7 +26,7 @@
       <ul class=vertical>
         {{ range .Site.Menus.main.ByWeight }}
           <li>
-            <a href="{{ .URL }}">{{ .Name }}</a>
+            <a href="{{ .URL }}" class="mobile-nav-item">{{ .Name }}</a>
           </li>
         {{ end }}
       </ul>
