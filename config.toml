@@ -10,7 +10,7 @@ assetDir= "static"
 [params]
 disallow_search_engines = false # set robots.txt to disallow everything
 description = "Creative Sounds, and Southern Vibes. At Hartwell your creativity and uniqueness are focused and refined to produce a sound that is unforgettable."
-image = "/images/website.jpg"
+image = "/images/website-preview.jpg"
 title = "Hartwell Records | Creative Sounds, Southern Vibes"
 
 # add redirects/headers
