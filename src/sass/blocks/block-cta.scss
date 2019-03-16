@@ -25,6 +25,9 @@
     h2{
       color: $color-white;
       font-size: 5rem;
+      @media (max-width: $tablet) {
+        font-size: 3rem;
+      }
     }
   }
   
