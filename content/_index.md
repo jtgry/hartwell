@@ -28,7 +28,7 @@ blocks:
   button_text: ''
 - template: block-showcase
   heading: The Studio
-  content: Creative Sounds and Southern Vibes. At **Hartwell** your creativity and
+  content: Creative Sounds and Southern Vibes. At **Hartwell**, your creativity and
     uniqueness are focused and refined to produce a sound that is unforgettable.
   items:
   - template: block-item
