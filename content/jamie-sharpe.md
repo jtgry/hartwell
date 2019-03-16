@@ -20,8 +20,6 @@ Fueled by his heart for music Jamie joined a band called Rush Of Fools and hit t
 
 After coming off the road, Jamie began planning his next chapter building his own recording studio. The studio located in a small town in Alabama is perfect for bands and artists looking to get away from distractions so they can focus their creativity. The tracking room provides ample space for full bands and creative vibes for the singer-songwriter.
 
-At Hartwell, your creativity and uniqueness are focused and refined to produce a sound that is unforgettable.
-
 ***
 
 #### Artists played with:
